@@ -1,0 +1,7 @@
+__*
+*.pyc
+*.o
+*.out
+.*_cache
+*.swp
+.exercism*
