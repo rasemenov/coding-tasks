@@ -7,7 +7,7 @@
 
 
 static int calculate_score(int *score_array, const char *word) {
-    memset(score_array, 0, NLETTERS * sizeof(int));
+    memset(score_array, 0, NLETTERS * sizeof(score_array[0]));
     int len = strlen(word), res = 0;
     for (int indx = 0; indx < len; indx++) {
         char letter = tolower(word[indx]);
