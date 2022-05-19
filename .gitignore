@@ -5,3 +5,4 @@ __*
 .*_cache
 *.swp
 .exercism*
+target
