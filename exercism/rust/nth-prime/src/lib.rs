@@ -42,7 +42,7 @@ pub fn find_prime(n: u32) -> u32 {
 }
 
 /// Eratosthenes algorithm.
-#[cfg(eratosthenes)]
+#[cfg(not(brute))]
 pub fn find_prime(n: u32) -> u32 {
     const START: u32 = 2;
     const STOP: u32 = 1_000_000;
